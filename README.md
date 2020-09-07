@@ -31,6 +31,7 @@ apareciendo una nueva presa en el espacio vacio.
 Si bien aplique estas reglas, lo hice de otra forma y con algunas modificaciones, como podran ver al ejecutar el codigo, le agregue al final de la simulacion una funcion que toma como parametros la cantidad de poblacion (presa  y depredador) y su generacion. De esta forma se podra ver graficamente como es la oscilacion de cantidad de individuos en el territorio.
 <br>
 <br>
+
 ![alt text](https://github.com/FranMartiarena/PredatorPrey/blob/master/Simulation.png?raw=true)
 
 ![alt text](https://github.com/FranMartiarena/PredatorPrey/blob/master/presa_depredadpr.png?raw=true)
