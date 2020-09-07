@@ -1,7 +1,8 @@
 # Modelo Presa Depredador by Prittiao
 
-## Metodologia
 
+## Metodologia
+<br>
 Esta simulacion se va a llevar a cabo atravez de un automata celular programado en python usando pygame, matplotlib y pandas.
 
 Un automata celular es un conjunto de celulas que interactuan en un espacio segun un conjunto de reglas dadas. "Un juego de 0 jugadores".
