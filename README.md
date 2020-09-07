@@ -21,7 +21,7 @@ Si la celula esta vacia, primero se evaluara si tiene algun depredador como veci
 apareciendo una nueva presa en el espacio vacio.
 
 ### Las reglas seran las siguientes(Pseudo-codigo):
-![alt text](https://github.com/FranMartiarena/PredatorPrey/blob/master/pseudo.jpg?raw=true)
+![alt text](https://github.com/FranMartiarena/PredatorPrey/blob/master/pseudo.png?raw=true)
 
 ## Modificaciones
 
