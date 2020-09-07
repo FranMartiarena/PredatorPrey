@@ -7,14 +7,15 @@ Esta simulacion se va a llevar a cabo atravez de un automata celular programado 
 
 Un automata celular es un conjunto de celulas que interactuan en un espacio segun un conjunto de reglas dadas. "Un juego de 0 jugadores".
 
-Cada celula podra tener uno de tres estados: Presa, depredador, o territorio
+Cada celula podra tener uno de tres estados: Presa, depredador, o territorio.
+
 En este caso, las celulas tendran geometria cuadrada y estaran ubicadas en un plano bidimensional, afectadas por los estados de sus celulas vecinas, en un area de Moore(radio 1).
+
 El sistema sera un sistema cerrado y no del tipo toroideal, ya que lo ideal es que los depredadores puedan encerrar a las presas.
 ## Reglas
 <br>
 Dada una celula de posicion (x,y) dentro del plano, se evaluara su estado, el cual puede ser presa, depredador, o vacio(territorio).
-Si la celula es presa, se calculara una probabilidad de muerte segun la cantidad de presas a su alrededor. Si sobrevive, la celula se queda en el mismo estado, si muere la celula estara vacia
-y habra una probabilidad de que se transforme en un depredador.
+Si la celula es presa, se calculara una probabilidad de muerte segun la cantidad de presas a su alrededor. Si sobrevive, la celula se queda en el mismo estado, si muere la celula estara vacia y habra una probabilidad de que se transforme en un depredador.
 
 Si la celula es depredador, esta tendra tambien una probabilidad de morir, pero estara presente en todo momento(No como en la presa, que dependera de la cantidad de depredadores a su alrededor).
 
