@@ -9,7 +9,7 @@ Un automata celular es un conjunto de celulas que interactuan en un espacio segu
 
 Cada celula podra tener uno de tres estados: Presa, depredador, o territorio.
 
-En este caso, las celulas tendran geometria cuadrada y estaran ubicadas en un plano bidimensional, afectadas por los estados de sus celulas vecinas, en un area de Moore(radio 1).
+En este caso, las celulas tendran geometria cuadrada y estaran ubicadas en un plano bidimensional, afectadas por los estados de sus celulas vecinas, en una vecindad de Moore(radio 1).
 
 El sistema sera un sistema cerrado y no del tipo toroideal, ya que lo ideal es que los depredadores puedan encerrar a las presas.
 ## Reglas
