@@ -1,5 +1,5 @@
-# Modelo Presa Depredador by Prittiao
-
+# Modelo Presa Depredador
+*By Francisco Martiarena*
 
 ## Metodologia
 <br>
